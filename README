@@ -1,0 +1,41 @@
+Name:
+Joey Costa	
+Course:
+CPSC 4160
+Clemson Email Address:
+jacosta@g.clemson.edu	
+
+/*****
+This game makes use of the SDL C++ framework. In order to compile on a linux machine you must first install 
+SDL2.0
+SDL2.0_Mixer
+SDL2.0_Image
+SDL_Sound
+SDL_TTF
+
+For mac users install the SDL frameworks above. (You must force install SDL_Sound as it requires SDL1.0, and this uses SDL2.0)
+You may use home-brew to install.
+
+*****/
+
+
+
+Game Level.
+This level will be akin to the Cuphead spirit in the fact you will die!
+If you get hit by a sprite (they actively try to avoid you) or you kill all of the sprites you die!
+Beware a single one of the sprites does not follow the rules! You cannot kill them and they do not try to avoid you. The sprite you have to avoid is listed in console output for this course only. Players of the game have to figure out which sprite it is by themselves. Each game a new sprite is chosen at random to be the deadly sprite.
+You can increase the difficulty by increasing both the collectible and noncollectibles in the xml (look towards the top)
+When you die after the death animation (you rise up the screen) the level resets!
+Try hitting shift for a slightly different challenge as well! Besides the default map (greyish tan back), in the blue background there is another thing to dodge. In the red background parts of the floor are fire! Be careful.
+
+If I had more time I would have been able to use some of the backgrounds of cuphead in my game, unfortunately I didnt have the time.
+
+
+
+
+Textures used in backgrounds:
+https://design.tutsplus.com/tutorials/how-to-create-a-textured-vector-landscape--vector-572
+http://www.freepik.com/free-vector/stone-wall-with-cartoon-style_1076788.htm
+
+Sprites from Castle Crashers game 
+http://castlecrashers.wikia.com/wiki/Animal_Orbs

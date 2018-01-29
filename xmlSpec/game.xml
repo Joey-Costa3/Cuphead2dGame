@@ -1,0 +1,388 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Cuphead on a budget: jacosta</title>
+<maxStringSize>60</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>jacosta</username>
+<hud>
+    <loc x="10" y="10"/> <!--10 10 for top left -->
+</hud>
+<view>
+  <width>1024</width>
+  <height>512</height>
+</view>
+<collectibles>40</collectibles>
+<noncollectibles>2</noncollectibles>
+
+<world>
+  <width>2000</width>
+  <height>768</height>
+</world>
+
+<background>
+    <factor>3</factor>
+</background>
+
+<lightblue>
+    <file>assets/lightblue.png</file>
+    <factor>3</factor>
+
+    <transparency>false</transparency>
+</lightblue>
+
+<default>
+    <file>assets/default.png</file>
+    <factor>3</factor>
+
+    <transparency>false</transparency>
+</default>
+
+<orange>
+    <file>assets/orange.png</file>
+    <factor>3</factor>
+
+    <transparency>false</transparency>
+</orange>
+
+<blue>
+  <file>assets/blue.png</file>
+  <factor>3</factor>
+
+  <transparency>false</transparency>
+</blue>
+
+<yellow>
+    <file>assets/yellow.png</file>
+    <factor>3</factor>
+
+    <transparency>false</transparency>
+</yellow>
+
+<middlebackdefault>
+    <file>assets/middlebackdefault.png</file>
+    <factor>3</factor>
+    <transparency>true</transparency>
+</middlebackdefault>
+
+
+<middlebackblue>
+    <file>assets/middlebackblue.png</file>
+    <factor>3</factor>
+    <transparency>true</transparency>
+</middlebackblue>
+
+<middlebackorange>
+    <file>assets/middlebackorange.png</file>
+    <factor>3</factor>
+    <transparency>true</transparency>
+</middlebackorange>
+
+<middleground>
+    <file>assets/middleground.png</file>
+    <factor>2</factor>
+    <transparency>true</transparency>
+</middleground>
+
+<foreground>
+    <factor>1</factor>
+</foreground>
+
+<foregrounddefault>
+    <file>assets/foregrounddefault.png</file>
+    <factor>1</factor>
+    <transparency>true</transparency>
+</foregrounddefault>
+
+<foregroundsnow>
+    <file>assets/foregroundsnow.png</file>
+    <factor>1</factor>
+    <transparency>true</transparency>
+</foregroundsnow>
+
+<foregroundfire>
+    <file>assets/foregroundfire.png</file>
+    <factor>1</factor>
+    <transparency>true</transparency>
+</foregroundfire>
+
+<raybeam>
+    <file>assets/punch.png</file>
+    <interval>300</interval>
+    <distance>1000</distance>
+    <startLoc x="70" y="10"/>
+    <minSpeedX>200</minSpeedX>
+    <speedX>200</speedX>
+    <speedY>0</speedY>
+    <strategy>per-pixel</strategy>
+    <transparency>true</transparency>
+</raybeam>
+
+<intro>
+<!--    <file>assets/intro.png</file>-->
+<!--    <frames>17</frames>-->
+<!--    <imageWidth>522</imageWidth>-->
+<!--    <imageHeight>298</imageHeight>-->
+<!--    <frameInterval>120</frameInterval>-->
+<!--    <transparency>true</transparency>-->
+<!--    -->
+    <file>assets/intro.png</file>
+    <startLoc x="50" y="290"/>
+    <frames>17</frames>
+    <imageWidth>522</imageWidth>
+    <imageHeight>298</imageHeight>
+    <frameInterval>90</frameInterval>
+    <speedX>0</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</intro>
+
+<fire>
+    <file>assets/Fire.png</file>
+    <frames>3</frames>
+    <imageWidth>3756</imageWidth>
+    <imageHeight>768</imageHeight>
+    <frameInterval>120</frameInterval> 
+    <transparency>true</transparency>
+</fire>
+<icesprite>
+    <file>assets/icesprite.png</file>
+    <startLoc x="500" y="400"/>
+    
+    <frames>8</frames>
+    <imageWidth>162</imageWidth>
+    <imageHeight>102</imageHeight>
+    <frameInterval>90</frameInterval>
+    <speedX>300</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</icesprite>
+<firesprite>
+    <file>assets/firesprite.png</file>
+    <startLoc x="1200" y="550"/>
+    <frames>3</frames>
+    <imageWidth>305</imageWidth>
+    <imageHeight>123</imageHeight>
+    <frameInterval>120</frameInterval>
+    <speedX>300</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</firesprite>
+<font name="font">
+  <file>fonts/CupheadVogue-Bold.otf</file>
+  <size>18</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<runspeed>
+        <speed>300</speed>
+</runspeed>
+<cupheadidle>
+    <file>assets/CupheadIdle2.png</file>
+    <startLoc x="50" y="290"/>
+    <frames>10</frames>
+    <bullet>raybeam</bullet>
+    <imageWidth>107.2</imageWidth>
+    <imageHeight>169</imageHeight>
+    <frameInterval>120</frameInterval>
+    <speedX>400</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</cupheadidle>
+<cupheadrun>
+    <file>assets/CupheadRun2.png</file>
+    <startLoc x="50" y="290"/>
+    <frames>16</frames>
+    <bullet>raybeam</bullet>
+    <imageWidth>146.5</imageWidth>
+    <imageHeight>169</imageHeight>
+    <frameInterval>90</frameInterval>
+    <speedX>400</speedX>
+    <speedY>300</speedY>
+    <transparency>true</transparency>
+</cupheadrun>
+<cupheadshoot>
+    <file>assets/Cupheadshoot2.png</file>
+    <startLoc x="50" y="500"/>
+    <frames>7</frames>
+    <bullet>raybeam</bullet>
+    <imageWidth>137.7</imageWidth>
+    <imageHeight>168</imageHeight>
+    <frameInterval>120</frameInterval>
+    <speedX>400</speedX>
+    <speedY>300</speedY>
+    <transparency>true</transparency>
+</cupheadshoot>
+<cupheaddead>
+    <file>assets/CupheadDeath.png</file>
+    <startLoc x="50" y="290"/>
+    <frames>18</frames>
+    <bullet>raybeam</bullet>
+    <imageWidth>110</imageWidth>
+    <imageHeight>167</imageHeight>
+    <frameInterval>180</frameInterval>
+    <speedX>400</speedX>
+    <speedY>300</speedY>
+    <transparency>true</transparency>
+</cupheaddead>
+<cupheadduck>
+    <file>assets/Cupheadduck.png</file>
+    <startLoc x="50" y="290"/>
+    <frames>6</frames>
+    <bullet>raybeam</bullet>
+    <imageWidth>129</imageWidth>
+    <imageHeight>64</imageHeight>
+    <frameInterval>180</frameInterval>
+    <speedX>400</speedX>
+    <speedY>300</speedY>
+    <transparency>true</transparency>
+</cupheadduck>
+<cupheadjump>
+    <file>assets/Cupheadjump.png</file>
+    <startLoc x="50" y="290"/>
+    <frames>15</frames>
+    <bullet>raybeam</bullet>
+    <imageWidth>124</imageWidth>
+    <imageHeight>125</imageHeight>
+    <frameInterval>180</frameInterval>
+    <speedX>400</speedX>
+    <speedY>300</speedY>
+    <transparency>true</transparency>
+</cupheadjump>
+<!-- INFO ABOUT SMARTSPRITES -->
+<animalOrbs>
+    <startLoc x="400" y="140"/>
+    <speedX>250</speedX>
+    <speedY>250</speedY>
+    <safeDistance>180</safeDistance>
+    <chunk>
+        <size>20</size>
+        <distance>1200</distance>
+    </chunk>
+</animalOrbs>
+<Beholder>
+    <file>assets/Beholder.png</file>
+    <transparency>true</transparency>
+</Beholder>
+<Bipolarbear>
+    <file>assets/Bipolarbear.png</file>
+    <transparency>true</transparency>
+</Bipolarbear>
+<Biteybat>
+    <file>assets/Biteybat.png</file>
+    <transparency>true</transparency>
+</Biteybat>
+<Burlybear>
+    <file>assets/Burlybear.png</file>
+    <transparency>true</transparency>
+</Burlybear>
+<Cardinal>
+    <file>assets/Cardinal.png</file>
+    <transparency>true</transparency>
+</Cardinal>
+<Chicken>
+    <file>assets/Chicken.png</file>
+    <transparency>true</transparency>
+</Chicken>
+<Dragon>
+    <file>assets/Dragon.png</file>
+    <transparency>true</transparency>
+</Dragon>
+<Frogglet>
+    <file>assets/Frogglet.png</file>
+    <transparency>true</transparency>
+</Frogglet>
+<Giraffey>
+    <file>assets/Giraffey.png</file>
+    <transparency>true</transparency>
+
+</Giraffey>
+<GoldenWhale>
+    <file>assets/GoldenWhale.png</file>
+    <transparency>true</transparency>
+</GoldenWhale>
+<Hawkster>
+    <file>assets/Hawkster.png</file>
+    <transparency>true</transparency>
+</Hawkster>
+<Installball>
+    <file>assets/Installball.png</file>
+    <transparency>true</transparency>
+</Installball>
+<Meowburt>
+    <file>assets/Meowburt.png</file>
+    <transparency>true</transparency>
+</Meowburt>
+<Monkeyface>
+    <file>assets/Monkeyface.png</file>
+    <transparency>true</transparency>
+</Monkeyface>
+<Mrbuddy>
+    <file>assets/Mrbuddy.png</file>
+    <transparency>true</transparency>
+</Mrbuddy>
+<Owlet>
+    <file>assets/Owlet.png</file>
+    <transparency>true</transparency>
+</Owlet>
+<Pazzo>
+    <file>assets/Pazzo.png</file>
+    <transparency>true</transparency>
+</Pazzo>
+<Pelter>
+    <file>assets/Pelter.png</file>
+    <transparency>true</transparency>
+</Pelter>
+<Piggy>
+    <file>assets/Piggy.png</file>
+    <transparency>true</transparency>
+</Piggy>
+<Rammy>
+    <file>assets/Rammy.png</file>
+    <transparency>true</transparency>
+</Rammy>
+<Scratchpaw>
+    <file>assets/Scratchpaw.png</file>
+    <transparency>true</transparency>
+</Scratchpaw>
+<Seahorse>
+    <file>assets/Seahorse.png</file>
+    <transparency>true</transparency>
+</Seahorse>
+<Sherbert>
+    <file>assets/Sherbert.png</file>
+    <transparency>true</transparency>
+</Sherbert>
+<Snailburt>
+    <file>assets/Snailburt.png</file>
+    <transparency>true</transparency>
+</Snailburt>
+<Snoot>
+    <file>assets/Snoot.png</file>
+    <transparency>true</transparency>
+</Snoot>
+<Spiny>
+    <file>assets/Spiny.png</file>
+    <transparency>true</transparency>
+</Spiny>
+<Troll>
+    <file>assets/Troll.png</file>
+    <transparency>true</transparency>
+</Troll>
+<Yeti>
+    <file>assets/Yeti.png</file>
+    <transparency>true</transparency>
+</Yeti>
+<Zebra>
+    <file>assets/Zebra.png</file>
+    <transparency>true</transparency>
+</Zebra>
+</GameData>
